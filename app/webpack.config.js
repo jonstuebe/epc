@@ -7,7 +7,7 @@ var webpack = require('webpack');
 var config = function(){
 
   var env = process.env.NODE_ENV || 'dev';
-  var port = 4000;
+  var port = 3000;
 
   var getEntry = function() {
     if(env == 'production')
